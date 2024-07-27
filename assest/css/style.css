@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.container_area {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.padding_sec {
+  padding: 120px 0 100px;
+}
+.d_flex {
+  display: flex;
+}
+.align_center {
+  align-items: center;
+}
+.align_item {
+  align-items: center;
+}
+.just_between {
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* grid area */
+.nav_con {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "h h h h h h h h h h h h"
+    "c c c c c c c c c c c c";
+}
+
+/* header */
+.main_header {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  background: #008cb5;
+  .nav {
+    & > li {
+      margin-right: 40px;
+      & > a {
+        padding: 25px 0;
+      }
+      a {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1;
+        display: inline-block;
+      }
+    }
+  }
+}
+.nav_content {
+  padding: 12px 0;
+}
+.has_subnav {
+  position: relative;
+}
+.subnav {
+  visibility: hidden;
+  background: #008cb5;
+  position: absolute;
+  padding: 0;
+  padding: 11px 0;
+}
+.subnav li a {
+  padding: 10px;
+  font-size: 11px !important;
+  width: 160px;
+}
+
+/* nav hover */
+.has_subnav:hover .subnav {
+  visibility: visible;
+}
+
+/* slider image */
+.hero_slider {
+  position: relative;
+}
+.slider_title {
+  position: absolute;
+  z-index: 4;
+  margin-top: 200px;
+  margin-left: 250px;
+}
+.title {
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgb(0, 0, 0);
+}
+.title_color {
+  color: rgb(0, 140, 181);
+}
+.read_more {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background: rgb(0, 140, 181);
+  border-radius: 30px;
+  border-color: rgb(0, 140, 181);
+  padding: 5px 12px;
+  margin-top: 20px;
+}
+.slider_image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* section 2 */
+.h2_title {
+  color: rgb(0, 140, 181);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 17px;
+}
+
+.looking_for p {
+  padding-bottom: 30px;
+  color: #999;
+  line-height: 1.5;
+  padding-right: 30px;
+}

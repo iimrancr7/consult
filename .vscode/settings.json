@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "notebook.defaultFormatter": "esbenp.prettier-vscode",
+    "notebook.formatOnCellExecution": true,
+    "notebook.formatOnSave.enabled": true,
+    "html.format.indentHandlebars": false,
+    "html.format.enable": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
