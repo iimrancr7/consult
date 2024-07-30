@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Don't Wait For Opportunity</title>
     <link rel="stylesheet" href="/assest/css/style.css" />
+    <link rel="stylesheet" href="/assest/css/responsiv.css" />
   </head>
   <body>
     <header class="main_header">
@@ -40,32 +41,38 @@
           <li><a href="">Contacts</a></li>
         </ul>
         <div class="logo">
-          <img src="/assest/image/logo_consult.png" alt="" />
+          <img src="/assest/image/logo_consult 1.png" alt="" />
+        </div>
+        <div class="menu_icon">
+          <a href=""
+            ><img src="/assest/icon/mingcute_menu-fill.png" alt=""
+          /></a>
         </div>
       </nav>
     </header>
     <section class="hero_slider">
+      <div class="solid_animation"></div>
       <div class="slider_title">
         <h1 class="title">
           Positive <span class="title_color">Thinking</span> <br />
           Breeds Success
         </h1>
-        <button class="read_more">Read More</button>
+        <button class="read_more_button">Read More</button>
       </div>
       <img class="slider_image" src="/assest/image/slider_img_02.jpg" alt="" />
     </section>
-    <section class="container_area d_flex padding_sec">
+    <section class="container_area d_flex padding_sec media_d_flex">
       <div class="looking_for">
-        <h2 class="h2_title">
+        <h2 class="h2_title media_text">
           We are always looking for specific approach to each cases.
         </h2>
-        <p>
+        <p class="media_text">
           Lorem ipsum dolor sit amet, vix an natum labitur eleifend, mel amet a
           great laorit menandri. Ei justo complectitur duo. Ei mundi solet ut
           soletu mel possit quo. Sea cu justo laudem.An utinam consulatu eos,
           est facilis suscipiantur te, vim te iudico delenit voluptatibus.
         </p>
-        <p>
+        <p class="media_text">
           Sea cu justo laudem.An utinam consulatu eos, est facilis suscipiantur
           te, vim te iudico delenit voluptatibus. Te eos accusam
           repudiandae.Lorem ipsum dolor sit amet, vix an natum labitur eleifend,
@@ -74,16 +81,20 @@
         </p>
       </div>
       <div>
-        <img src="/assest/image/we_are_alwayes.jpg" alt="we_are_alwayes" />
+        <img
+          class="looking_image"
+          src="/assest/image/we_are_alwayes.jpg"
+          alt="we_are_alwayes"
+        />
       </div>
     </section>
     <section>
-      <h2 class="services text_align">Our Services</h2>
-      <div class="d_flex container_area">
-        <div class="paddinglr">
+      <h2 class="section_title text_align">Our Services</h2>
+      <div class="d_flex container_area media_d_flex">
+        <div class="paddinglr text_align">
           <img src="/assest/image/why_choos_us_01.jpg" alt="" />
-          <h3 class="gelary_title text_align">Consultancy services</h3>
-          <p class="gelary_p text_align">
+          <h3 class="gelary_title">Consultancy services</h3>
+          <p class="gelary_p">
             Lorem ipsum dolor sit amet, elit. Donec nec ornare purus. Nulla non
             augue ut mi mollis eget id arcu. Rem autem voluptatem
           </p>
@@ -96,7 +107,7 @@
             augue ut mi mollis eget id arcu. Rem autem voluptatem
           </p>
         </div>
-        <div>
+        <div class="paddinglr">
           <img src="/assest/image/why_choos_us_03.jpg" alt="" />
           <h3 class="gelary_title text_align">Consultancy services</h3>
           <p class="gelary_p text_align">
@@ -107,8 +118,8 @@
       </div>
     </section>
     <section>
-      <h2 class="services_title text_align">Our Works</h2>
-      <div class="d_flex">
+      <h2 class="section_title text_align">Our Works</h2>
+      <div class="d_flex media_d_flex">
         <div class="paddinglr services">
           <img
             class="gelary_image"
@@ -144,8 +155,8 @@
       </div>
     </section>
     <section class="news_section">
-      <h2 class="services_title text_align">Latest News</h2>
-      <div class="d_flex container_area">
+      <h2 class="section_title text_align">Latest News</h2>
+      <div class="d_flex container_area media_d_flex">
         <div class="paddinglr">
           <img src="/assest/image/blog_grid_img_01.jpg" alt="" />
           <p class="news_date">25 JUNE 2016</p>
@@ -176,7 +187,7 @@
       </div>
     </section>
     <footer>
-      <div class="d_flex footer_section">
+      <div class="d_flex footer_section media_d_flex">
         <div class="footer_content footer_section_1">
           <h4>Our Headquarters</h4>
           <ul>
@@ -225,11 +236,16 @@
             Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do
             eiusmod temporia incididunt ut labore ete.
           </p>
-          <div>
-            <input type="email" placeholder="Emil Address" />
-            <a href="#"><img src="/assest/icon/bxl_telegram.png" alt="" /></a>
+          <div class="email_send">
+            <input class="email" type="email" placeholder="Emil Address" />
+            <a href="#"
+              ><img
+                class="email_send_icon"
+                src="/assest/icon/bxl_telegram.png"
+                alt=""
+            /></a>
           </div>
-          <ul class="d_flex">
+          <ul class="cosial_icon d_flex">
             <li>
               <a href=""
                 ><img src="/assest/icon/ri_facebook-fill.png" alt=""
@@ -253,10 +269,18 @@
       </div>
       <div class="copyright">
         <p>
-          © Copyright 2017 <span>|</span>Consult by <a href="#">HelloXpartan</a
-          ><span>|</span>All Rights Reserved
+          © Copyright 2017 <span>|</span> Consult by
+          <a href="#"> HelloXpartan </a><span>|</span> All Rights Reserved
         </p>
       </div>
     </footer>
+    <div class="up_icon">
+      <a class="up_icon_link" href="#top"
+        ><img
+          class="up_icon_top"
+          src="/assest/icon/mingcute_up-line.png"
+          alt="up icon"
+      /></a>
+    </div>
   </body>
 </html>
