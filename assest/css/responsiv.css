@@ -1,9 +1,60 @@
+@media only screen and (max-width: 1170px) {
+  .nav_content {
+    padding: 10px 20px;
+  }
+  .container_area {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .hero_slider {
+    margin-top: 64px;
+    margin-bottom: 48px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .nav_content {
+    padding: 12px 20px;
+    height: auto;
+  }
+  .nav {
+    display: none;
+  }
+  .logo {
+    text-align: left;
+    width: 100px;
+    height: auto;
+  }
+  .menu_icon {
+    visibility: visible;
+    display: block;
+  }
+  .hero_slider {
+    margin-top: 54px;
+    margin-bottom: 48px;
+  }
+
+  /* our searvice */
+  .media_d_flex {
+    flex-wrap: wrap;
+  }
+  .paddinglr {
+    width: 49%;
+    padding-top: 30px;
+  }
+  .footer_content {
+    width: 49%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .container_area {
     padding: 0 25px;
   }
   .media_text {
     text-align: center;
+  }
+  .new_section {
+    padding: 0 0 65px;
   }
   /* nav */
   .main_header {
@@ -16,6 +67,7 @@
   .nav_content {
     width: 100%;
     height: auto;
+    padding: 8px 12px;
   }
   .logo {
     text-align: left;
@@ -29,31 +81,56 @@
 
   /* hero slider */
   .hero_slider {
-    padding-top: 58px;
+    margin-top: 46px;
+    margin-bottom: 48px;
   }
   .solid_animation {
-    top: 58px;
+    top: 0px;
   }
   .slider_title {
-    margin-top: 20px;
-    margin-left: 118px;
+    margin-top: 14px;
+    margin-left: 46px;
   }
   .title {
     font-size: 26px;
     line-height: 1.5;
   }
 
-  /* content We are always looking */
-  .media_d_flex {
-    display: block;
+  /* section */
+  .new_section {
+    padding: 40px 0px 40px;
   }
-  .h2_title {
+
+  /* content We are always looking */
+  .looking_for,
+  .looking_image {
+    width: 100%;
+  }
+  .media_d_flex {
+    flex-wrap: wrap;
+  }
+  .paddinglr {
+    width: 100%;
+  }
+  .footer_content {
+    width: 100%;
+  }
+  .h2_title,
+  .media_text {
+    text-align: left;
+  }
+  .section_title {
+    font-size: 28px;
   }
   .looking_image {
     width: 100%;
   }
 
   /* footer */
+  footer {
+    padding: 60px 0 0;
+    background: #202020;
+  }
   .footer_content {
     width: 100%;
     padding: 0 15px;

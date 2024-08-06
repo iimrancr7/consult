@@ -52,14 +52,22 @@
     </header>
     <section class="hero_slider">
       <div class="solid_animation"></div>
-      <div class="slider_title">
-        <h1 class="title">
-          Positive <span class="title_color">Thinking</span> <br />
-          Breeds Success
-        </h1>
-        <button class="read_more_button">Read More</button>
+      <div class="slider_content d_flex align_center">
+        <div class="slider_container">
+          <h1 class="title">
+            Positive <span class="title_color">Thinking</span> <br />
+            Breeds Success
+          </h1>
+          <button class="read_more_button">Read More</button>
+        </div>
       </div>
-      <img class="slider_image" src="/assest/image/slider_img_02.jpg" alt="" />
+      <div class="top_slider">
+        <img
+          class="slider_image"
+          src="/assest/image/slider_img_02.jpg"
+          alt=""
+        />
+      </div>
     </section>
     <section class="container_area d_flex padding_sec media_d_flex">
       <div class="looking_for">
@@ -80,15 +88,15 @@
           solet ut soletu mel possit quo.
         </p>
       </div>
-      <div>
+      <div class="looking_image">
         <img
-          class="looking_image"
-          src="/assest/image/we_are_alwayes.jpg"
+          class="image_content"
+          src="/assest/image/22222.png"
           alt="we_are_alwayes"
         />
       </div>
     </section>
-    <section>
+    <section class="new_section">
       <h2 class="section_title text_align">Our Services</h2>
       <div class="d_flex container_area media_d_flex">
         <div class="paddinglr text_align">
@@ -154,31 +162,37 @@
         </div>
       </div>
     </section>
-    <section class="news_section">
+    <section class="new_section">
       <h2 class="section_title text_align">Latest News</h2>
       <div class="d_flex container_area media_d_flex">
         <div class="paddinglr">
-          <img src="/assest/image/blog_grid_img_01.jpg" alt="" />
-          <p class="news_date">25 JUNE 2016</p>
-          <h3 class="gelary_title text_align">Make your productive teams</h3>
+          <div><img src="/assest/image/blog_grid_img_01.jpg" alt="" /></div>
+          <h4 class="news_date">25 JUNE 2016</h4>
+          <a class="news_gelary_title gelary_title text_align"
+            >Make your productive teams</a
+          >
           <p class="gelary_p text_align">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
         </div>
         <div class="paddinglr">
-          <img src="/assest/image/blog_grid_img_01.jpg" alt="" />
-          <p class="news_date">25 JUNE 2016</p>
-          <h3 class="gelary_title text_align">Make your productive teams</h3>
+          <div><img src="/assest/image/blog_grid_img_01.jpg" alt="" /></div>
+          <h4 class="news_date">25 JUNE 2016</h4>
+          <a class="news_gelary_title gelary_title text_align"
+            >Make your productive teams</a
+          >
           <p class="gelary_p text_align">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
         </div>
         <div class="paddinglr">
-          <img src="/assest/image/blog_grid_img_01.jpg" alt="" />
-          <p class="news_date">25 JUNE 2016</p>
-          <h3 class="gelary_title text_align">Make your productive teams</h3>
+          <div><img src="/assest/image/blog_grid_img_01.jpg" alt="" /></div>
+          <h4 class="news_date">25 JUNE 2016</h4>
+          <a class="news_gelary_title gelary_title text_align"
+            >Make your productive teams</a
+          >
           <p class="gelary_p text_align">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
@@ -192,7 +206,11 @@
           <h4>Our Headquarters</h4>
           <ul>
             <li>
-              <span><img src="/assest/icon/ph_phone-thin.png" alt="" /></span
+              <span class="contact_icon"
+                ><img
+                  class="ph_icon"
+                  src="/assest/icon/ph_phone-thin.png"
+                  alt="" /></span
               >+088 212 386 5575
             </li>
             <li>
@@ -246,11 +264,9 @@
             /></a>
           </div>
           <ul class="cosial_icon d_flex">
-            <li>
-              <a href=""
-                ><img src="/assest/icon/ri_facebook-fill.png" alt=""
-              /></a>
-            </li>
+            <div class="social_icon">
+              <img src="/assest/icon/ri_facebook-fill.png" alt="" />
+            </div>
             <li>
               <a href=""
                 ><img src="/assest/icon/foundation_social-twitter.png" alt=""
