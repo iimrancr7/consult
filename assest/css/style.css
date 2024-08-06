@@ -316,7 +316,6 @@ p {
 .email {
   background: #202020;
   border-bottom: 1px solid #252525;
-  /* border-right: none; */
   border: none;
   outline: none;
   margin-top: 22px;
@@ -324,9 +323,7 @@ p {
   width: 85%;
   color: #555;
 }
-.email_send input[type="text"]:focus {
-  border: none;
-}
+
 .email_send_icon {
   width: 20px;
   height: auto;
