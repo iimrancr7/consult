@@ -8,6 +8,19 @@
   }
 }
 
+/* screen size 1024px */
+@media only screen and (max-width: 1024px) {
+  .media_d_flex {
+    flex-wrap: wrap;
+  }
+  .footer_content {
+    width: 33.333%;
+  }
+}
+
+/* screen size 900px */
+@media only screen and (max-width: 900px) {
+}
 /* screen size 768px */
 @media only screen and (max-width: 768px) {
   .nav_content {
@@ -31,7 +44,7 @@
     margin-bottom: 48px;
   }
 
-  /* our searvice */
+  /* our Services */
   .media_d_flex {
     flex-wrap: wrap;
   }
@@ -134,5 +147,12 @@
   .footer_content {
     width: 100%;
     padding: 0 15px;
+  }
+  .footer_social_icon {
+    padding: 0;
+    justify-content: left;
+  }
+  .social_icon {
+    margin-right: 10px;
   }
 }
