@@ -2,18 +2,14 @@
   .nav_content {
     padding: 10px 20px;
   }
-  .container_area {
-    padding: 0 20px;
-    margin: 0 auto;
-  }
   .hero_slider {
     margin-top: 64px;
     margin-bottom: 48px;
   }
 }
 
-/* screen size 800px */
-@media only screen and (max-width: 800px) {
+/* screen size 768px */
+@media only screen and (max-width: 768px) {
   .nav_content {
     padding: 12px 20px;
     height: auto;
@@ -48,11 +44,8 @@
   }
 }
 
-/* screen size 600px */
-@media only screen and (max-width: 600px) {
-  .container_area {
-    padding: 0 25px;
-  }
+/* screen size 640px */
+@media only screen and (max-width: 640px) {
   .media_text {
     text-align: center;
   }
@@ -123,7 +116,11 @@
     text-align: left;
   }
   .section_title {
-    font-size: 28px;
+    font-size: 50px;
+  }
+  .gelary_title {
+    font-size: 18px;
+    font-weight: 700;
   }
   .looking_image {
     width: 100%;
